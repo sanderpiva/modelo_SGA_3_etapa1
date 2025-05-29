@@ -121,5 +121,7 @@ if (isset($_GET['id_aluno']) && !empty($_GET['id_aluno'])) {
         <?php endif; ?>
     </div>
     <a href="<?php echo $isUpdating ? '../servicos-professor/pagina-servicos-professor.php' : '../index.php'; ?>"><?php echo $isUpdating ? 'Serviços' : 'Home Page'; ?></a>
+    
+
 </body>
 </html>
