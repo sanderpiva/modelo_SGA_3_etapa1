@@ -27,7 +27,7 @@ if (!empty($erros)) {
             <h2>Erros ao Cadastrar Turma</h2>
             <div style='color: red;'>$erros</div>
             <hr>
-            <a href='formTurma.php'>Voltar ao formulário</a>
+            <a href='form-turma.php'>Voltar ao formulário</a>
         </div>
     </body>
     </html>";
